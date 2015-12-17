@@ -4,7 +4,7 @@ ShrinkPresentation makes it easy to shrink the previous view controller when pre
 ## Screenshot
 
 ![Screenshot](https://github.com/GuiminChu/ShrinkPresentation/blob/master/Screenshot.gif)
-
+              
 ## Requirements
 
 - iOS 8.0+
@@ -19,10 +19,9 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'MyApp' do
-	pod 'ShrinkPresentation', '~> 0.1.0'
+	pod 'ShrinkPresentation', '~> 0.1.2'
 end
 ```
-Note that this requires CocoaPods version 36, and your iOS deployment target to be at least 8.0:
 
 ####Manually (iOS 8+)
 
@@ -30,9 +29,11 @@ Clone the repo and add files under Source folder to your project.
 
 ## Usage
 
-Make your presented view controller as a subclass of ShrinkViewController, then present it as usual.
+Make your presented view controller as a subclass of ShrinkViewController and present it as usual.
 
 ```swift
+import ShrinkPresentation
+
 class MenuViewController: ShrinkViewController {
 
     override func viewDidLoad() {
