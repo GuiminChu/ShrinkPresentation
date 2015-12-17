@@ -23,7 +23,7 @@
 
 import UIKit
 
-class ShrinkViewController: UIViewController {
+public class ShrinkViewController: UIViewController {
     
     private let delegate = ShrinkTransitioningDelegate()
     
@@ -33,13 +33,13 @@ class ShrinkViewController: UIViewController {
         setDelegate()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required  public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
      
         setDelegate()
     }
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor.clearColor()

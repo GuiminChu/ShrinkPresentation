@@ -23,7 +23,7 @@
                                 <color key="backgroundColor" red="0.070588235289999995" green="0.4823529412" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bfM-WN-WOb">
                         <barButtonItem key="leftBarButtonItem" image="Menu" id="gYa-lX-0DU">
