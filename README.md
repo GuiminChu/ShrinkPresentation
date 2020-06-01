@@ -10,9 +10,9 @@ ShrinkPresentation makes it easy to shrink the previous view controller when pre
 - iOS 8.0+
 - Xcode 7
 
-##Integration
+## Integration
 
-####CocoaPods (iOS 8+)
+#### CocoaPods (iOS 8+)
 You can use [Cocoapods](http://cocoapods.org/) to install `ShrinkPresentation`by adding it to your `Podfile`:
 ```ruby
 platform :ios, '8.0'
@@ -23,7 +23,7 @@ target 'MyApp' do
 end
 ```
 
-####Manually (iOS 8+)
+#### Manually (iOS 8+)
 
 Clone the repo and add files under Source folder to your project.
 
